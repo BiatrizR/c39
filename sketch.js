@@ -2,11 +2,9 @@ var canvas;
 var backgroundImage, bgImg, car1_img, car2_img, track;
 var database, gameState;
 var form, player, playerCount;
-//1.informações dos jogadores serão armazendas em allPlayers
-var allPlayers, car1, car2;
-var cars = [];
+//informações dos jogadores serão armazendas em allPlayers
 
-//2.play em game.js
+
 
 function preload() {
   backgroundImage = loadImage("./assets/background.png");
