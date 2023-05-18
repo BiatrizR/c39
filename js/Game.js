@@ -49,22 +49,12 @@ class Game {
       if(allPlayers !== undefined){
         image(track, 0, -height * 5, width, height *6);
 
-        //4. pegar a posição dos jogadores utilizando loop for in
-          var index = 0;
-          for (var plr in allPlayers){
-            index = index + 1;
-            var x = allPlayers[plr].positionX;
-            var y = height - allPlayers[plr].positionY;
+        // pegar a posição dos jogadores utilizando loop for in
+         
 
-            cars[index -1].position.x = x;
-            cars[index-1].position.y = y;
-          }
-
-          //6. controle de seta
-          if(keyIsDown(UP_ARROW)){
-            player.positionY +=10;
-            player.update();
-          } //7. ir para player.js criar método update
+          //controle de seta
+         
+          } 
 
       }
 
